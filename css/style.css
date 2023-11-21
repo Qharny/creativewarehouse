@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #AB7442;
-    --light: #F5F5F5;
-    --dark: #353535;
+    --primary: #418641;
+    --light: #0000ff;
+    --dark: #311818;
 }
 
 .fw-medium {
@@ -23,6 +23,12 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+}
+svg{
+    font-size: 20px;
+}
+.mb-4{
+    font-size: 20px !important;
 }
 
 
@@ -465,7 +471,7 @@
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, #ffffff 0%, #ffffff00 100%);
     z-index: 1;
 }
 
@@ -476,7 +482,7 @@
     right: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, #ffffff 0%, #ffffff00 100%);
     z-index: 1;
 }
 
@@ -562,7 +568,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/footer.jpg) center center no-repeat;
+    background: linear-gradient(#353535b3, #353535b3), url(../img/footer.jpg) center center no-repeat;
     background-size: cover;
 }
 

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #0000ff;
+    --secondary: #418641;
+    --tetiary: #AB7442;
+    --light: #F5F5F5;
+    --dark: #353535;
+}
+h2{
+    color: var(--secondary);
+}
